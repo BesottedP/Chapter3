@@ -53,14 +53,26 @@ public class Bat {
             return (false);
         }
     }
+
+
     public static int blackjack(int hand1, int hand2){
-        int total = hand1 + hand2;
-        if (total > 42){
+        if (hand1 > 21 && hand2 > 21){
             return 0;
         }
         else if (hand1 < 22){
             if (hand1 > hand2) {
                 return (hand1);
+            }
+            else {
+                return (hand2);
+            }
+        }
+        else {
+            if (hand1 > hand2) {
+                return (hand1);
+            }
+            else {
+                return (hand2);
             }
         }
     }
