@@ -53,6 +53,7 @@ public class MoreConditionals {
         System.out.println("2004 " + isLeapYear(2004));
         System.out.println("2003 " + isLeapYear(2003));
         System.out.println("2100 " + isLeapYear(2100));
+        System.out.println(" ");
 
 
 // is later
@@ -65,6 +66,7 @@ public class MoreConditionals {
         System.out.println("5/2/2010 is later than 1/3/2011 " + isLater(5,2,2010, 1,3,2011));
         System.out.println("1/2/2010 is later than 1/2/2010 " + isLater(1,2,2010, 1,2,2010));
         System.out.println("4/8/2010 is later than 1/2/2010 " + isLater(4,8,2010, 1,2,2010));
+        System.out.println(" ");
 
 // Best Fit
         System.out.println("Find Best fit 2 3 6 is " + findBestFit(2,3,6));
@@ -73,6 +75,7 @@ public class MoreConditionals {
         System.out.println("Find Best fit 2 3 1 is " + findBestFit(2,3,1));
         System.out.println("Find Best fit 6 3 4 is " + findBestFit(6,3,4));
         System.out.println("Find Best fit 3 6 4 is " + findBestFit(3,6,4));
+        System.out.println(" ");
 
 // Make Bench
         System.out.println("Make bench 3 1 8 is " + makeBench(3,1,8));
@@ -84,5 +87,6 @@ public class MoreConditionals {
         System.out.println("Make bench 0 6 30 is " + makeBench(0,6,30));
         System.out.println("Make bench 0 5 30 is " + makeBench(0,5,30));
         System.out.println("Make benches 2 6 23 is " + makeBench(2,6,23));
+        System.out.println(" ");
     }
 }
